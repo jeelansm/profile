@@ -3,237 +3,139 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume</title>
+    <title>Jeelana Shaik Mohammed - Professional Portfolio</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
-        }
-        .container-header {
-            width: 80%;
-            margin: auto;
-            overflow: auto;
-            
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
+            background: linear-gradient(to bottom, #f0f0f0, #ffffff);
+            color: #333;
         }
         header {
-            background: #2e86c1;
-            color: #fff;
-            padding-top: 30px;
-            min-height: 70px;
-            border-bottom: #77aaff 3px solid;
+            background-color: #002B5B;
+            color: white;
+            padding: 20px 10%;
+            text-align: center;
         }
-        header a {
-            color: #fff;
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
             text-decoration: none;
-            text-transform: uppercase;
-            font-size: 16px;
-            
+            color: #002B5B;
+            font-weight: bold;
         }
-        header ul {
-            padding: 0;
-            list-style: none;
-        }
-        header li {
-            display: inline;
-            padding: 0 20px 0 20px;
-        }
-        .main {
+        section {
+            margin: 20px 10%;
             padding: 20px;
-            background: #fff;
-            margin-top: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
-        .section-title {
-            color: #333;
-            margin-bottom: 10px;
-            border-bottom: 2px solid #77aaff;
-            padding-bottom: 5px;
+        h2 {
+            color: #002B5B;
         }
-        .section-content {
-            margin-bottom: 20px;
+        ul {
+            list-style-type: none;
+            padding: 0;
         }
-        .linkedin {
-            float: right;
-            margin-top: -50px;
+        ul li {
+            margin: 5px 0;
+            padding-left: 20px;
+            position: relative;
         }
-        .container-skilss {
-            width: 80%;
-            margin-bottom: 10px;
-            overflow: hidden;
+        ul li::before {
+            content: "\2022";
+            color: #002B5B;
+            font-weight: bold;
+            display: inline-block;
+            width: 20px;
+            margin-left: -20px;
         }
-        table {
-            width: 50%;
-            border-collapse: collapse;
-            font-size: 18px;
-            text-align: left;
-        }
-        th, td {
-            padding: 2px;
-            border-bottom: 1px solid #ddd;
-        }
-        th {
-            background-color: #333;
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #002B5B;
             color: white;
         }
-        tr:hover {
-            background-color: #f1f1f1;
-        }
-    </style>
     </style>
 </head>
 <body>
     <header>
-        <div class="container-header">
-            <h1>Jeelana Shaik Mohammed </h1>
-            <h4>
-                +13027849237 | shaikjeelan123@gmail.com
-            </h4>
-            <a href="https://www.linkedin.com/in/jeelansm24/" target="_blank" class="linkedin">
-                <img width="48" height="48" src="https://img.icons8.com/color/48/linkedin.png" alt="linkedin"/>
-            </a>
-        </div>
+        <h1>Jeelana Shaik Mohammed</h1>
+        <p>📞 +1 3027849237 | 📧 <a href="mailto:shaikjeelan123@gmail.com" style="color: #FFD700;">shaikjeelan123@gmail.com</a></p>
     </header>
-   
-    <div class="container main">
-        <section>
-            <h2 class="section-title">PROFESSIONAL SUMMARY</h2>
-            <div class="section-content">
-                <p>Software Developer with seasoned expertise focusing on application development, proficient in both Java and microservices frameworks. Demonstrated ability to scope, design, and implement scalable and resilient systems across various sectors: - Led successful migration of legacy applications to modern microservices using AWS, Spring Boot, and Rest APIs. - Developed robust CI/CD pipelines in Jenkins and deployed solutions in Pivotal Cloud Foundry and AWS services. - Enhanced application performance and quality using agile methodologies and efficient coding practices and bringing extensive programming knowledge and cross-functional collaboration skills to contribute to distributed systems architecture at your company.
 
-                </p>
-            </div>
-        </section>
-        <section>
-    
-            <h2 class="section-title">EXPERIENCE</h2>
-            <div class="section-content">
-                <h3>Software Developer</h3>
-                <p>Compunnel Inc, 2022 - Present</p>
-                <h3>Software Engineer</h3>
-                <p>Atos-Syntel : 2013-2022</p>
-                <h3>Software Engineer</h3>
-                <p>Laserwords(SPI Global) Pvt Lt: 2011-2013</p>
-                <h3>Software Engineer</h3>
-                <p>Hamsh: 2008-2011</p>
-            </div>
-          
-        </section>
-        <section>
-            <div class="container-skilss">
-                <h2 class="section-title">Skills</h2>  
-                                <div class="skills">
-                    <div class="skill-category">
-                        <h3>Agile Project Management Tools</h3>
-                        <p>JIRA, Bugzilla, Rally</p>
-                    </div>
-                    <div class="skill-category">
-                        <h3>Web Technologies</h3>
-                        <p>HTML, CSS,  JavaScript, Bootstrap, React JS</p>
-                    </div>
-                    <div class="skill-category">
-                        <h3>Technologies</h3>
-                        <p>Java,J2EE, 9, Go, Python</p>
-                    </div>
-                    <div class="skill-category">
-                        <h3>Cloud Technologies</h3>
-                        <p>Pivotal Cloud Foundry, AWS, Azure DevOps</p>
-                    </div>
-                    <div class="skill-category">
-                        <h3>AWS</h3>
-                        <p>S3, IAM, Cloud Watch, DynamoDB, Lambda, EKS, Kinesis, X-Ray, APIGateway, CloudTrail, Datadog</p>
-                    </div>
-                    <div class="skill-category">
-                        <h3>Spring</h3>
-                        <p>Spring -Cloud, Cloud API Gateway, cloud Config, Eureka server, Eureka Client, Hystrix, Core, MVC, Boot, JDBCTemplate, ORM</p>
-                    </div>
-                    <div class="skill-category">
-                        <h3>Web Services</h3>
-                        <p>Spring-REST, Rest Template, Webflux, WebClient, SOAP, RESTful Web Services</p>
-                    </div>
-                    <div class="skill-category">
-                        <h3>Message Brokers</h3>
-                        <p>Apache Kafka</p>
-                    </div>
-                    <div class="skill-category">
-                        <h3>Build-Tools</h3>
-                        <p>Java- Ant, Maven</p>
-                    </div>
-                    <div class="skill-category">
-                        <h3>Debugging Tools</h3>
-                        <p>Firebug, Chrome Developer tool, IE Developer, Eclipse</p>
-                    </div>
-                    <div class="skill-category">
-                        <h3>Database</h3>
-                        <p>RDBMS-Oracle, MySQL, DB2 </p> 
-                        <p> NOSQL-Datastax Cassandra, DynamoDB, SQL Server</p>
-                    </div>
-                    <div class="skill-category">
-                        <h3>IDE's</h3>
-                        <p>Eclipse IDE, JBoss Dev Studio, IntelliJ, Web Storm, Visual Studio</p>
-                    </div>
-                    <div class="skill-category">
-                        <h3>Design Tools</h3>
-                        <p>Microsoft Visio</p>
-                    </div>
-                    <div class="skill-category">
-                        <h3>Testing Frameworks</h3>
-                        <p>Junit, TestNG, Apache Karate</p>
-                    </div>
-                    <div class="skill-category">
-                        <h3>APM</h3>
-                        <p>AppDynamics</p>
-                    </div>
-                    <div class="skill-category">
-                        <h3>CI/CD Tools</h3>
-                        <p>Jenkins, Team city</p>
-                    </div>
-                    <div class="skill-category">
-                        <h3>Version Controls</h3>
-                        <p>GIT, GIT Hub, Bitbucket</p>
-                    </div>
-                    <div class="skill-category">
-                        <h3>Operating System</h3>
-                        <p>Windows, Unix, Linux</p>
-                    </div>
-                    <div class="skill-category">
-                        <h3>Web/Application Servers</h3>
-                        <p>Tomcat, JBoss Server</p>
-                    </div>
-                    <div class="skill-category">
-                        <h3>Domain</h3>
-                        <p>Retail, Logistics, Payments & Cards, E-Publishing,Trading</p>
-                    </div>
-                    <div class="skill-category">
-                        <h3>Team Communication Channels</h3>
-                        <p>Slack</p>
-                    </div>
-                    <div class="skill-category">
-                        <h3>DevOps</h3>
-                        <p>DevOps Concepts, PowerShell Scripting</p>
-                    </div>
-                    <div class="skill-category">
-                        <h3>Architecture</h3>
-                        <p>Microservices Architecture</p>
-                    </div>
-                  
-                </div> 
-            </div>
-            </section>
-            <section>
-                <div class="container-skilss">
-                    <h2 class="section-title">Certifications</h2> 
-                    <p>Certified Scrum Master from Scrum Alliance on 04/21</p>
-                      <p> Certified AWS Cloud Practitioner from AWS on 06/22 </p>
+    <nav>
+        <a href="#summary">Summary</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+    </nav>
 
-                </div>
-                </section>
-            </div>
-    </div>
+    <section id="summary">
+        <h2>Professional Summary</h2>
+        <p>15+ years of experience as a Java Developer specializing in Microservices, Cloud Technologies, and DevOps. Certified AWS Cloud Practitioner and Scrum Master with a consistent track record of delivering high-quality solutions in Agile environments.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <ul>
+            <li><strong>Programming Languages:</strong> Java (8, 9), Python, Go</li>
+            <li><strong>Cloud Platforms:</strong> AWS, Pivotal Cloud Foundry</li>
+            <li><strong>Web Technologies:</strong> ReactJS, AngularJS, HTML5, CSS3, Bootstrap</li>
+            <li><strong>DevOps Tools:</strong> Jenkins, Terraform, Docker, Kubernetes</li>
+            <li><strong>Databases:</strong> MySQL, Oracle, Cassandra, DynamoDB</li>
+        </ul>
+    </section>
+
+    <section id="experience">
+        <h2>Professional Experience</h2>
+        <h3>Software Developer | Compunnel</h3>
+        <p><em>August 2022 – Present</em></p>
+        <ul>
+            <li>Migrated batch jobs from Perl to Python using Apache Airflow, improving performance by 20%.</li>
+            <li>Developed scalable microservices using Spring Boot for real-time data synchronization.</li>
+            <li>Enhanced API reliability by creating comprehensive test cases.</li>
+        </ul>
+
+        <h3>Backend Java Developer | JPMC, Newark, DE</h3>
+        <p><em>July 2021 – August 2022</em></p>
+        <ul>
+            <li>Designed serverless microservices architecture using AWS Lambda and DynamoDB.</li>
+            <li>Implemented CI/CD pipelines with Jenkins, increasing deployment efficiency by 30%.</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Additional Projects</h2>
+        <ul>
+            <li><strong>Tokenization Platform (JPMC):</strong> Enhanced secure merchant token management using AWS Lambda and Kafka.</li>
+            <li><strong>GMDL Financial Applications (AMEX):</strong> Migrated data from mainframes to Cassandra clusters.</li>
+            <li><strong>ICWalk (Home Depot):</strong> Developed a space-planning tool, reducing manual effort by 25%.</li>
+        </ul>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <p><strong>Master of Computer Applications (M.C.A.)</strong>  
+        Sri Venkateswara University, India (April 2008)</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>📞 Phone: +1 3027849237</p>
+        <p>📧 Email: <a href="mailto:shaikjeelan123@gmail.com">shaikjeelan123@gmail.com</a></p>
+        <p>🌐 LinkedIn: <a href="https://www.linkedin.com/in/jeelansm24/">Visit Profile</a></p>
+    </section>
+
+    <footer>
+        <p>© 2024 Jeelana Shaik Mohammed. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
